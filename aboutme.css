@@ -1,0 +1,35 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  width:100%;
+  position: fixed;
+  bottom:0px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Left and right column */
+.leftcolumn{
+	padding: 20px;
+	float: left;
+  width: 35%;
+}
+
+/* Middle column */
+.rightcolumn {
+	float: left;
+  width: 65%;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
